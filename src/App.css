@@ -1,38 +1,122 @@
 .App {
-  text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-header-orwell {
+  align-items: center;
+  background-color: #B03030;
+  color: #D3B896;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  font-family: futura;
+  font-size: calc(10px + 3vmin);
+  height: 30%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.body-orwell {
+  align-items: center;
+  background-color: #2F4F4F;
+  color: #D3B896;
+  display: flex;
+  flex-direction: column;
+  font-family: futura;
+  font-size: calc(10px + 1vmin);
+  min-height: 100vh;
+}
+
+.button-orwell-wrapper {
+  display:flex
+}
+
+.button-orwell {
+  background-color: #556B2F;
+  border: black 10px solid;
+  color: #D3B896;
+  font-family: futura;  
+  height: 50px;
+  width: 200px;
+}
+
+
+.App-header-eighties {
+  align-items: center;
+  background-color: #9B30FF;
   color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  height: 30%;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.body-eighties {
+  align-items: center;
+  background-color: #1E90FF;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: futura;
+  font-size: calc(10px + 1vmin);
+  min-height: 100vh;
+  padding-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-eighties {
+  background-color: #FFB6C1;
+  border: #39FF14 10px solid;
+  border-radius: 20px;
+  color: white;
+  font-family: futura;
+  height: 50px;
+  width: 200px;
 }
+
+.input-field {
+  background-color: black;
+  color: white;
+  font-size: 100px;
+  min-height: 100px;
+  width: 200px;
+}
+
+
+
+ /*Primary Colors:
+Dark Red: #B03030
+Ochre: #D3B896
+Dark Gray: #2F4F4F
+Black: #000000
+
+Secondary Colors:
+Off-White: #F5F5DC
+Cold Blue: #4682B4
+Accent Colors:
+Burnt Orange: #FF4500
+Olive Green: #556B2F
+Headings: Futura, Bebas Neue, or Impact (bold and authoritative)
+Body Text: Times New Roman, Georgia, or Courier (readable and formal)
+Call to Action: Futura (clean, modern, and cold)
+Display or Accent Text: Courier (to evoke typewriter-style communication, adding to the industrial, bureaucratic aesthetic)
+
+
+Primary Colors:
+Neon Pink: #FF0066
+Electric Blue: #1E90FF
+Bright Purple: #9B30FF
+Neon Green: #39FF14
+
+Secondary Colors:
+Bold Yellow: #FFD700
+Hot Red: #FF4500
+Black: #000000
+White: #FFFFFF
+Accent Colors:
+Electric Turquoise: #40E0D0
+Pastel Pink: #FFB6C1
+Pastel Blue: #B0E0E6
+
+Headings: "Bauhaus", "Orbitron", or "Neon" (bold, geometric, and futuristic)
+Body Text: "Roboto" or "Futura" (clean, easy-to-read sans-serif for modern legibility)
+Display/Accent Text: "Press Start 2P" or "Pixel Emulator" (retro 8-bit typeface for a pixelated or arcade feel)
+Buttons/Call to Action: "Righteous" or "Miami" (bold and playful for strong emphasis)*/
