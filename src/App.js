@@ -53,7 +53,7 @@ function App() {
             <div className="button-orwell-wrapper">
               <button className="button-orwell" onClick={()=>changeStep(1)}>Start the Hunt!</button>
             </div>
-            <p>(Once you start, there is no going back).</p>
+            <p>(Once you start, there is no going back. Try to be sneaky!)</p>
           </div>
         </fragment>
       }
@@ -61,10 +61,11 @@ function App() {
       {step === 1 && 
         <fragment>
           <header className="App-header-eighties">
-            <p>🐻 Brown Bear Brown Bear, what do you see? 🐻</p>
-            <p>I see a Baby Yoda looking at me.</p>
+            <p>🐻 Brown Bear Brown Bear, 🐻</p>
+            <p>what do you see?</p>
           </header>
           <div className="body-eighties">
+          <p>I see a Baby Yoda looking at me.</p>
             <input
               type="text"
               value={inputValue}
@@ -80,10 +81,11 @@ function App() {
       {step === 2 && 
         <fragment>
           <header className="App-header-eighties">
-            <p>👾There's a monster upstairs!👾</p>
-            <p>But never fear, it&rsquo;s just taking notes as Emily codes.</p>
+            <p>👾There's a monster upstairs,👾</p>
+            <p>it's true</p>
           </header>
           <div className="body-eighties">
+            <p>But don’t worry, it’s just jotting down code for Emily to do!</p>
             <input
               type="text"
               value={inputValue}
@@ -99,10 +101,10 @@ function App() {
       {step === 3 && 
         <fragment>
           <header className="App-header-eighties">
-            <p>🪴Now down the stairs, to find Mr. Prickles.🪴</p>
-            <p>He doesn&rsquo;t like to drink and he hurts those who touch him.</p>
+            <p>🪴Down the stairs, you’ll find Mr. Prickles,🪴</p>
           </header>
           <div className="body-eighties">
+            <p>He’s not a fan of drinks, and he’ll sting if you tickle!</p>
             <input
               type="text"
               value={inputValue}
@@ -118,15 +120,17 @@ function App() {
       {step === 4 && 
         <fragment>
           <header className="App-header-eighties">
-            <p>🏝This is the last hint, your prize awaits!🏝</p>
-            <p>Upstairs again, find the remote island, where a treasure chest is surely burried.</p>
+            <p>🏝This is the last clue,</p>
+            <p>your prize is near,🏝</p>
           </header>
           <div className="body-eighties">
+            <p>Upstairs you must go, to the island so dear,</p>
+            <p>Where a treasure chest waits, hidden away—</p>
+            <p>On a remote island, your prize will stay!</p>
             <button className="button-eighties" onClick={verifyStep4}>I found it!</button>
           </div>
         </fragment>
       }
-
 
       {step === 5 && 
         <header className="App-header-eighties">

@@ -1,6 +1,7 @@
 .App {
   font-family: futura;
   font-size: calc(10px + 1vmin);
+  justify-content: center;
 }
 
 
@@ -10,7 +11,6 @@
   color: #D3B896;
   display: flex;
   flex-direction: column;
-  font-size: calc(10px + 3vmin);
   height: 30%;
   justify-content: center;
 }
@@ -21,7 +21,6 @@
   color: #D3B896;
   display: flex;
   flex-direction: column;
-/*  font-size: calc(10px + 1vmin);*/
   min-height: 100vh;
 }
 
@@ -51,15 +50,26 @@
   justify-content: center;
 }
 
+.App-header-eighties {
+  p {
+    margin: 5px;
+  }
+}
+
 .body-eighties {
   align-items: center;
   background-color: #1E90FF;
   color: white;
   display: flex;
   flex-direction: column;
-/*  font-size: calc(10px + 1vmin);*/
   min-height: 100vh;
   padding-top: 20px;
+}
+
+.body-eighties {
+  p {
+    margin: 5px;
+  }
 }
 
 .button-eighties {
@@ -79,6 +89,7 @@
   font-family: futura;
   font-size: calc(10px + 1vmin);
   height: 50px;
+  margin-top: 15px;
   padding-left: 10px;
   width: 200px;
 }
